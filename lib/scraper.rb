@@ -12,7 +12,7 @@ class Scraper
   
 def get_courses
   self.get_page.css(".post")
-end
+end 
   
    doc.css(".post").each do |post|
       course = Course.new
