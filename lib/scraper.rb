@@ -29,4 +29,3 @@ Scraper.new.get_page
 end
 
 
-
