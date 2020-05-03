@@ -22,9 +22,6 @@ def make_courses
       course.description = post.css("p").text
       end
     end
-
-
-Scraper.new.get_page
   
   def print_courses
     self.make_courses
@@ -40,9 +37,6 @@ Scraper.new.get_page
 end
 
 
-doc.css(".post").first.css("h2").text
-doc.css(".post").first.css(".date").text
-doc.css(".post").first.css("p").text
 
 
 
